@@ -11,7 +11,7 @@ on:
       - '**.md'
 
 jobs:
-  build:
+  lint:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -25,3 +25,18 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run lint
+
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup node 17
+        uses: actions/setup-node@v2
+        with:
+          node-version: 17.x
+          cache: npm
+      - run: npm ci
+      - run: npm run build
