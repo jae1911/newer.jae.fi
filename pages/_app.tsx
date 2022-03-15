@@ -3,9 +3,7 @@ import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div suppressHydratationWarning>
-      {typeof window === 'undefined' ? null : <Component {...pageProps} />}
-    </div>
+    <Component {...pageProps} />
   );
 }
 
