@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <div className="font-sans bg-slate-900 text-white text-slate-100">
       <Head>
-        <title>Jae's website</title>
+        <title>Jae&apos;s website</title>
         <meta name="description" content="Official website of Jae" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
             Jae
           </div>
           <div className="text-7x1">
-            Code, networking & Beeps'n Boops
+            Code, networking & Beeps&apos;n Boops
           </div>
         </header>
       </div>
