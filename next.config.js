@@ -4,14 +4,8 @@ const nextConfig = {
 }
 
 module.exports = {
-  async rewrites() {
-    return [
-      // Redir everything to / because cool one page thing
-      {
-        source: '/:path',
-        destination: ':',
-      },
-    ];
+  experimental: {
+    outputStandalone: true,
   },
 };
 
