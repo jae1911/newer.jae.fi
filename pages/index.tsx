@@ -26,7 +26,7 @@ const Home: NextPage = () => {
       <div className="flex justify-center items-center h-screen text-center">
         <header>
           <h2 className="text-3xl">About me</h2>
-          <p>Hey there, my name is Jae Lo Presti, I'm 20 and I'm living in Helsinki, Finland.<br/>
+          <p>Hey there, my name is Jae Lo Presti, I&lsquo;m 20 and I&lsquo;m living in Helsinki, Finland.<br/>
           I am involved in TeDomum.net as an admin and developer.<br/>
           I also happen to run AS211696 (scroll down for more) which I use as my own private ISP.<br/>
           I am developer, sysadmin and even a network person when needed!<br/><br/>
