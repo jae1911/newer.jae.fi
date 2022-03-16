@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div className="font-sans bg-slate-900 text-white text-slate-100 scroll-smooth cursor-cell">
+    <div className="font-sans bg-slate-700 text-white text-slate-100 scroll-smooth cursor-cell">
       <Head>
         <title>Jae&apos;s website</title>
         <meta name="description" content="Official website of Jae" />
@@ -34,9 +34,19 @@ const Home: NextPage = () => {
         </header>
       </div>
 
-      <footer className={styles.footer}>
-        Jae, robot on the internet since 2012
-      </footer>
+       <div className="flex justify-center items-center h-screen text-center">
+        <header>
+          <h2 className="text-3xl">AS211696</h2>
+          <p>I am running the network AS211696 (Noiseless Systems).<br/>
+          </p>
+        </header>
+      </div>
+
+      <footer className="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">Jae, robot on the internet since 2012.
+        </span>
+  </footer>
+
     </div>
   )
 }
