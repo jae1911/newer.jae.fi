@@ -1,9 +1,10 @@
 name: Docker Build
 
 on:
-  push:
-    branches:
-      - beep
+  workflow_run:
+    workflows: ["build-test"]
+    types:
+      - completed
 
 jobs:
   build-docker-image:
