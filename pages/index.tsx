@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -38,7 +39,19 @@ const Home: NextPage = () => {
         <header>
           <h2 className="text-3xl">AS211696</h2>
           <p>I am running the network AS211696 (Noiseless Systems).<br/>
+          Please see the <Link href="https://www.peeringdb.com/asn/211696">PeeringDB</Link> page if you wish to peer.
           </p>
+        </header>
+      </div>
+
+      <div className="flex justify-center items-center h-screen text-center">
+        <header>
+          <h2 className="text-3xl">Important links</h2>
+          <br/>
+          <ul className="list-disc text-left">
+            <li><Link href="https://blog.jae.fi">My Blog</Link> - I post stuff about tech and more general topics now and then there.</li>
+            <li><Link href="https://github.com/jae1911">My Github</Link> - All my source is hosted there.</li>
+          </ul>
         </header>
       </div>
 
