@@ -1,7 +1,10 @@
 import type { NextPage } from 'next'
+
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Clock from 'react-live-clock'
+
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -20,6 +23,8 @@ const Home: NextPage = () => {
           </div>
           <div className="text-2xl">
             Code, networking & Beeps&apos;n Boops
+            <br/>
+            It is <Clock format={'HH:mm:ss'} ticking={true} timezone={'EU/Helsinki'} /> in Helsinki
           </div>
         </header>
       </div>
