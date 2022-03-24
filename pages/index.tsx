@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           <div className="text-2xl">
             Code, networking & Beeps&apos;n Boops
             <br/>
-            It is <Clock format={'HH:mm:ss'} ticking={true} timezone={'EU/Helsinki'} /> in Helsinki
+            It is <Clock format={'HH:mm:ss'} ticking={true} timezone={'EET'} /> in Helsinki
           </div>
         </header>
       </div>
