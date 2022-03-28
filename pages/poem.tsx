@@ -17,20 +17,7 @@ const Home: NextPage = () => {
  ▒▓▒▒░   ▒▒   ▓▒█░░░ ▒░ ░
  ▒ ░▒░    ▒   ▒▒ ░ ░ ░  ░
  ░ ░ ░    ░   ▒      ░   
- ░   ░        ░  ░   ░  ░
-
- We hide in the silence
-in the darkest corners
-waiting for the sweep of the searchlight to pass
-And on that hidden signal
-We strike
-Painting the world in the glow of a spectral supernova
-Illuminating the sky in gemstones and fireworks
-Until the we cross beyond the horizon
-and nothing remains of us...
-
-...but a trail of ultraviolet fading into the mist
-`;
+ ░   ░        ░  ░   ░  ░`;
 
  let network = os.hostname();
 
@@ -45,6 +32,17 @@ and nothing remains of us...
       <div className="main crt">
         <pre>{ascii}</pre>
         <br/>
+        <p> We hide in the silence<br/>
+in the darkest corners<br/>
+waiting for the sweep of the searchlight to pass<br/>
+And on that hidden signal<br/>
+We strike<br/>
+Painting the world in the glow of a spectral supernova<br/>
+Illuminating the sky in gemstones and fireworks<br/>
+Until the we cross beyond the horizon<br/>
+and nothing remains of us...<br/>
+<br/>
+...but a trail of ultraviolet fading into the mist</p><br/>
         <p><Link href="/">Return to the index</Link></p>
       </div>
 
