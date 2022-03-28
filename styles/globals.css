@@ -64,6 +64,10 @@ ul, li {
 
     height: 75vh;
   }
+
+  .servedBy {
+    display: none;
+  }
 }
 
 @keyframes flicker {
