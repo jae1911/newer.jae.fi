@@ -25,6 +25,13 @@
   color: white;
 }
 
+.servedBy {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1rem;
+}
+
 a {
   text-decoration: underline;
 }

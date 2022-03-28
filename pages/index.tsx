@@ -5,6 +5,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Clock from 'react-live-clock'
 
+import os from 'os';
+
 const Home: NextPage = () => {
   let ascii = `
  ▄▄▄██▀▀▀▄▄▄      ▓█████ 
@@ -16,6 +18,8 @@ const Home: NextPage = () => {
  ▒ ░▒░    ▒   ▒▒ ░ ░ ░  ░
  ░ ░ ░    ░   ▒      ░   
  ░   ░        ░  ░   ░  ░`;
+
+ let network = os.hostname();
 
   return (
     <div>
@@ -43,6 +47,8 @@ const Home: NextPage = () => {
 
         <br/>
         <p>If you wish to contact me, please use Matrix as it is the fastest way. You may also use the email me@jae.fi; this email is selfhosted and nobody except myself can snoop on it.</p>
+
+        <p className="servedBy">Served by {network}</p>
       </div>
 
     </div>
