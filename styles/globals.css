@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'termfont';
-  src: url('/VT323-Regular.ttf');
+  src: url('/Ac437_IBM_EGA_9x8.ttf');
 }
 
 .main {
@@ -12,7 +12,7 @@
 
   width: 35%;
 
-  font-size: 1.4rem;
+  font-size: 1rem;
 
   margin-top: 5%;
   margin-bottom: 5%;
@@ -20,9 +20,8 @@
   height: 75vh;
 }
 
-.main p, h1, h2, h3, ul, li, a {
-  font-family: 'termfont';
-  color: white;
+pre {
+  font-size: 1.6rem;
 }
 
 .servedBy {
@@ -45,6 +44,8 @@ ul, li {
   margin: 0;
   padding: 0;
   background-color: black;
+  font-family: 'termfont';
+  color: white;
 }
 
 @media screen and (max-width: 1000px) {
