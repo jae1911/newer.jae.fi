@@ -10,6 +10,8 @@
   text-align: center;
   color: white;
 
+  width: 35%;
+
   font-size: 1.4rem;
 
   margin-top: 5%;
@@ -18,8 +20,23 @@
   height: 75vh;
 }
 
-.main p, h1, h2, h3 {
+.main p, h1, h2, h3, ul, li, a {
   font-family: 'termfont';
+  color: white;
+}
+
+hr {
+  width: 15%;
+  margin: auto;
+}
+
+a {
+  text-decoration: underline;
+}
+
+ul, li {
+  list-style: none;
+  text-decoration: underline;
 }
 
 * {
