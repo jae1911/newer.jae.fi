@@ -49,6 +49,18 @@ ul, li {
   color: white;
 }
 
+.magenta {
+  color: magenta;
+}
+
+.purple {
+  color: purple;
+}
+
+.red {
+  color: red;
+}
+
 @media screen and (max-width: 1000px) {
   .main {
     left: 0;

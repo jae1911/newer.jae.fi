@@ -46,7 +46,7 @@ const Home: NextPage = () => {
         </ul>
 
         <br/>
-        <p>If you wish to contact me, please use Matrix as it is the fastest way. You may also use the email me@jae.fi; this email is selfhosted and nobody except myself can snoop on it.</p>
+        <p>If you wish to contact me, <span className="red">please use Matrix</span> as it is the fastest way. You may also use the email me@jae.fi; this email is selfhosted and nobody except myself can snoop on it.</p>
 
         <p className="servedBy">Served by {network}; 🏳️‍⚧️</p>
       </div>
