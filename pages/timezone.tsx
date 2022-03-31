@@ -35,7 +35,7 @@ const Home: NextPage = () => {
         <h1>Jae&apos;s Timezone</h1>
         <p><Link href="/">Return to the index</Link></p>
         <br />
-        <h2><Clock format={'HH:mm:ss'} ticking={true} timezone={'EET'} /></h2>
+        <h2><Clock format={'YYYY-MM-DD HH:mm:ss'} ticking={true} timezone={'EET'} /></h2>
       </div>
 
     </div>
