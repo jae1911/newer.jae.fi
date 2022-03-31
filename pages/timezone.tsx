@@ -32,7 +32,7 @@ const Home: NextPage = () => {
       <div className="main crt">
         <pre>{ascii}</pre>
         <br/>
-        <h1>Jae's Timezone</h1>
+        <h1>Jae&apos;s Timezone</h1>
         <p><Link href="/">Return to the index</Link></p>
         <br />
         <h2><Clock format={'HH:mm:ss'} ticking={true} timezone={'EET'} /></h2>
