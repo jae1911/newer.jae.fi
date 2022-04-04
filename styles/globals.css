@@ -25,6 +25,11 @@ pre {
   font-size: 1.6rem;
 }
 
+hr {
+  width: 5%;
+  margin: auto;
+}
+
 .servedBy {
   position: absolute;
   bottom: 0;
