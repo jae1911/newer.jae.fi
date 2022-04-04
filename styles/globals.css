@@ -66,6 +66,10 @@ ul, li {
   color: red;
 }
 
+.orange {
+  color: orange;
+}
+
 @media screen and (max-width: 1000px) {
   .main {
     left: 0;
