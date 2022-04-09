@@ -89,6 +89,10 @@ ul, li {
     height: 75vh;
   }
 
+  .torUri {
+    display: None;
+  }
+
   pre {
     font-size: 1.4rem;
   }

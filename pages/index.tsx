@@ -44,7 +44,7 @@ const Home: NextPage = () => {
         <hr/>
         <br/>
 
-        <small>This page is served on jae.fi and jae.su<br/>A TOR version is available on fxc3qybpnn363p4bj4lqfncmqwmqketrvokfdk62t7fcuqotsr4tfsid.onion</small>
+        <small>This page is served on jae.fi and jae.su<br/><span className="torUri">A TOR version is available on fxc3qybpnn363p4bj4lqfncmqwmqketrvokfdk62t7fcuqotsr4tfsid.onion</span></small>
 
         <p className="servedBy">Served by {network}; 🏳️‍⚧️</p>
       </div>
