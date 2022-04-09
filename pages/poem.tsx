@@ -7,18 +7,10 @@ import Clock from 'react-live-clock'
 
 import os from 'os';
 
-const Home: NextPage = () => {
-  let ascii = `
- ▄▄▄██▀▀▀▄▄▄      ▓█████ 
-   ▒██  ▒████▄    ▓█   ▀ 
-   ░██  ▒██  ▀█▄  ▒███   
-▓██▄██▓ ░██▄▄▄▄██ ▒▓█  ▄ 
- ▓███▒   ▓█   ▓██▒░▒████▒
- ▒▓▒▒░   ▒▒   ▓▒█░░░ ▒░ ░
- ▒ ░▒░    ▒   ▒▒ ░ ░ ░  ░
- ░ ░ ░    ░   ▒      ░   
- ░   ░        ░  ░   ░  ░`;
+// Custom components
+import Art from 'components/art'
 
+const Home: NextPage = () => {
  let network = os.hostname();
 
   return (
@@ -30,7 +22,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="main crt">
-        <pre>{ascii}</pre>
+        <Art />
         <br/>
         <p> We hide in the silence<br/>
 in the darkest corners<br/>
