@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         </ul>
 
         <br/>
-        <p>If you wish to contact me, <span className="red">please use Matrix</span> as it is the fastest way. You may also use the email me@jae.&#123;fi,su&#125; this email is selfhosted and nobody except myself can snoop on it. <a href="https://keyoxide.org/hkp/E925CA48B1CF851298321784025F43E0BE5056C0" target="_blank">A GPG key is available</a> for this address.</p>
+        <p>If you wish to contact me, <span className="red">please use Matrix</span> as it is the fastest way. You may also use the email me@jae.&#123;fi,su&#125; this email is selfhosted and nobody except myself can snoop on it. <a rel="noreferrer" href="https://keyoxide.org/hkp/E925CA48B1CF851298321784025F43E0BE5056C0" target="_blank">A GPG key is available</a> for this address.</p>
         <p>You may also contact me using Threema with the ID <span className="red">D7ANR4CV</span>.</p>
 
         <br/>
