@@ -1,1 +1,1 @@
-{"m.homeserver":{"base_url":"https://matrix.jae.fi/"},"m.identity_server":{"base_url":"https://matrix.jae.fi"}}
+{"m.homeserver":{"base_url":"https://jae.fi/"},"m.identity_server":{"base_url":"https://jae.fi"}}
