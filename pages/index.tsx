@@ -35,6 +35,7 @@ const Home: NextPage = () => {
           <li><a target="_blank" rel="noreferrer" href="https://github.com/jae1911">My Github</a></li>
           <li><a target="_blank" rel="noreferrer" href="https://matrix.to/#/#home:jae.fi">My Matrix room</a></li>
           <li><a target="_blank" rel="noreferrer" href="https://blog.jae.fi">My Blog</a></li>
+          <li><Link href="/pics">Photo Gallery Index</Link></li>
         </ul>
 
         <br/>
