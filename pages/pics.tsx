@@ -32,6 +32,7 @@ const Home: NextPage = () => {
         <ul>
           <li><a href="https://pix.jae.fi/s/jae/landscape" rel="noreferrer" target="_blank">Landscapes</a></li>
           <li><a href="https://pix.jae.fi/s/jae/city" rel="noreferrer" target="_blank">City</a></li>
+          <li><a href="https://pix.jae.fi/s/jae/misc" rel="noreferrer" target="_blank">Misc</a></li>
           <li><a href="https://pix.jae.fi/s/jae/infrastructure" rel="noreferrer" target="_blank">Infrastructure</a></li>
         </ul>
       </div>
