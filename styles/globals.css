@@ -269,3 +269,11 @@ ul, li {
   animation: textShadow 1.6s infinite;
 }
 
+img {
+  height: calc(var(--fontsize) * 2vmin);
+}
+
+.fontest {
+  background-color: white;
+  padding: 10px;
+}
