@@ -9,6 +9,7 @@ import os from 'os';
 
 // Custom components
 import Art from 'components/art'
+import Alphabet from 'components/letters'
 
 const Home: NextPage = () => {
  let network = os.hostname();
@@ -46,7 +47,7 @@ const Home: NextPage = () => {
         <hr/>
         <br/>
 
-        <small>This page is served on jae.fi and jae.su<br/><span className="torUri">A TOR version is available on fxc3qybpnn363p4bj4lqfncmqwmqketrvokfdk62t7fcuqotsr4tfsid.onion</span></small>
+        <small>This page is served on jae.fi and jae.su<br/><span className="torUri">A TOR version is available on fxc3qybpnn363p4bj4lqfncmqwmqketrvokfdk62t7fcuqotsr4tfsid.onion</span><br/><Alphabet letter='T'/><Alphabet letter='H'/><Alphabet letter='E'/> <Alphabet letter='D'/><Alphabet letter='N'/><Alphabet letter='0'/> <Alphabet letter='S'/><Alphabet letter='Y'/><Alphabet letter='S'/><Alphabet letter='T'/><Alphabet letter='E'/><Alphabet letter='M'/></small>
 
         <p className="servedBy">Served by {network}; 🏳️‍⚧️</p>
       </div>
