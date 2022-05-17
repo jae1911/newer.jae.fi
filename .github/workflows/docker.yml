@@ -1,12 +1,9 @@
 name: Docker Build
 
 on:
-  pull_request:
-    paths-ignore:
-      - '**.md'
   push:
-    branches:
-      - beep
+    tags:
+      - '*'
     paths-ignore:
       - '**.md'
 
@@ -24,6 +21,12 @@ jobs:
           username: ${{ secrets.GRC_USER }}
           password: ${{ secrets.GRC_TOKEN }}
 
+      - name: Get tag
+        id: tag
+        uses: dawidd6/action-get-tag@v1
+        with:
+          strip_v: false
+
       - name: Build and push
         uses: docker/build-push-action@v2.7.0
         with:
@@ -31,4 +34,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: ghcr.io/jae1911/newer.jae.fi:latest
+          tags: ghcr.io/jae1911/newer.jae.fi:${{steps.tag.outputs.tag}} , ghcr.io/jae1911/newer.jae.fi:latest
