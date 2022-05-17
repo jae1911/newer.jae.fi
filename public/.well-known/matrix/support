@@ -1,0 +1,12 @@
+{
+    admins: [{
+        matrix_id: "@me:jae.fi",
+        email_address: "abuse@dn0.eu",
+        role: "admin"
+    },
+    {
+        email_address: "security@dn0.eu",
+        role: "security"
+    }],
+    support_page: "https://jae.fi"
+}
