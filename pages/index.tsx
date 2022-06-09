@@ -27,6 +27,7 @@ const Home: NextPage = () => {
         <br/>
         <p>Welcome to my website<br/>
         It is <Clock format={'HH:mm:ss'} ticking={true} timezone={'EET'} /> in Helsinki</p>
+        <p><span className="red">If you are a recruiter/CEO or whatever and is looking for a developer, contact me, I'm looking for a job.</span></p>
         <br/>
         <p>My name is <span className="orange">Jae Lo Presti</span>, I was born in Annecy, Savoy but I am living in Helsinki, Finland.</p>
         <p>I am developer and a sysadmin. I also like to meddle in networking sometimes (I am running my own ISP, <a href="https://www.peeringdb.com/asn/211696" target="_blank" rel="noreferrer">Noiseless Systems</a>).</p>
