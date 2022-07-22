@@ -10,12 +10,14 @@ import os from 'os';
 // Custom components
 import Art from 'components/art'
 import Alphabet from 'components/letters'
+import HelpMessage from 'components/help';
 
 const Home: NextPage = () => {
  let network = os.hostname();
 
   return (
     <div>
+      <HelpMessage/>
       <Head>
         <title>Jae&apos;s website</title>
         <meta name="description" content="Official website of Jae" />

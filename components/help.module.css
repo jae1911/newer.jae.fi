@@ -1,0 +1,19 @@
+.help {
+  height: 100px;
+  background: wheat;
+  margin: 0;
+  padding: 0;
+}
+
+.helpp {
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  background: wheat;
+  padding-top: 25px;
+}
+
+.helppa {
+  background: wheat;
+  color: red;
+}
