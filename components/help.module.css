@@ -15,6 +15,16 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .help {
+    height: 20vh;
+    background: wheat;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+  }
+}
+
 .helpp {
   color: black;
   text-align: center;
