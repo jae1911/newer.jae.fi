@@ -23,6 +23,8 @@ const Home: NextPage = () => {
         <br/>
         <ul>
           <li>Anonymous - 23.07€/w</li>
+          <li>~1794837 - 0.25€/w</li>
+          <li>Anonymous - 11.32€/w</li>
         </ul>
       </div>
 
