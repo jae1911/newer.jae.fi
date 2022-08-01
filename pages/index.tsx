@@ -40,6 +40,7 @@ const Home: NextPage = () => {
           <li><a target="_blank" rel="noreferrer" href="https://github.com/jae1911">My Github</a></li>
           <li><a href="matrix:roomid/dn0home-v9:jae.fi?action=join&via=jae.fi&via=matrix.org&via=pikaviestin.fi&via=the-apothecary.club">My Matrix room</a> (#home:jae.fi | #dn0home:matrix.org)</li>
           <li><a target="_blank" rel="noreferrer" href="https://blog.jae.fi">My Blog</a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://library.jae.fi">My Library</a></li>
         </ul>
 
         <br/>
