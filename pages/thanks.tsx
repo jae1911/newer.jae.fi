@@ -32,6 +32,7 @@ const Home: NextPage = () => {
           <li>Anonymous - 138.46CZK/w</li>
           <li>Anonymous - 11.53€/w</li>
           <li>Anonymous - $11.53/w</li>
+          <li>Java - 3.46€/w</li>
         </ul>
       </div>
 
